@@ -1,0 +1,62 @@
+:root {
+    --light: #e2eef4;
+    --lightacc: #b5dd91;
+    --main: #75c39c;
+    --darkacc: #11938f;
+    --lightdark: #26262d;
+    --dark: #1f2026;
+    --darkhover: #3a7457;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: var(--main);
+}
+
+.darktext {
+    color: var(--dark);
+    font-size: x-large;
+
+}
+
+.darktext:hover {
+    color: var(--darkhover);
+}
+
+body, .card {
+    background-color: var(--dark);
+    border: none;
+}
+
+.lighttext {
+    color: var(--light);
+}
+
+.acctext {
+    color: var(--lightacc);
+}
+
+.island {
+    background-color: var(--lightdark);
+}
+
+.btn {
+    background-color: var(--darkacc);
+    color: var(--lightdark);
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    background-color: var(--lightacc);
+    color: var(--dark)
+}
+
+.image {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
